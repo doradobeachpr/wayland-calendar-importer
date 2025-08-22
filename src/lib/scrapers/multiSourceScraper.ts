@@ -599,16 +599,36 @@ export class MultiSourceScraper {
 
           if (!title || title.length < 3) return;
 
-          // Get event URL
+          // Get event URL - try multiple strategies
           let eventUrl = $event.find('a').first().attr('href');
-          if (eventUrl) {
+
+          // If no URL found in element, look for parent or sibling links
+          if (!eventUrl) {
+            eventUrl = $event.parent().find('a').first().attr('href') ||
+                      $event.siblings('a').first().attr('href') ||
+                      $event.closest('article, div, section').find('a').first().attr('href');
+          }
+
+          // Normalize URL if found
+          if (eventUrl && eventUrl.trim()) {
             eventUrl = eventUrl.trim();
-            if (eventUrl.startsWith('/')) {
-              eventUrl = `https://artswayland.com${eventUrl}`;
-            } else if (!eventUrl.startsWith('http')) {
-              eventUrl = `https://artswayland.com/${eventUrl}`;
+            // Skip anchor links and invalid URLs
+            if (eventUrl !== '#' && eventUrl !== '/' && !eventUrl.startsWith('javascript:')) {
+              if (eventUrl.startsWith('/')) {
+                eventUrl = `https://artswayland.com${eventUrl}`;
+              } else if (!eventUrl.startsWith('http')) {
+                eventUrl = `https://artswayland.com/${eventUrl}`;
+              }
+              console.log(`🔗 Arts Wayland event URL: ${eventUrl}`);
+            } else {
+              eventUrl = undefined; // Invalid URL, clear it
             }
-            console.log(`🔗 Arts Wayland event URL: ${eventUrl}`);
+          }
+
+          // If still no URL found, use the main calendar page as fallback
+          if (!eventUrl) {
+            eventUrl = result.metadata.url;
+            console.log(`🔗 Using fallback URL for Arts Wayland event: ${eventUrl}`);
           }
 
           // Extract description
