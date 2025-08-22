@@ -1,0 +1,207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Wayland Calendar Events
+X-WR-CALNAME:Wayland Calendar Events
+X-WR-CALDESC:Events imported from Wayland, MA calendar
+TIMEZONE-ID:America/New_York
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:6256b35f-a75c-4e29-810c-1ebf723a4ce5
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250801T183000
+DTEND:20250801T193000
+SUMMARY:Design Review Advisory Board
+LOCATION:Town Building
+DESCRIPTION:Monthly meeting of the Design Review Advisory Board to review 
+ proposed developments
+ORGANIZER;CN="Design Review Advisory Board":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/design-review-advisory-board
+END:VEVENT
+BEGIN:VEVENT
+UID:1658cfe4-37eb-4a03-a57f-56ee3018c41b
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250805T103000
+DTEND:20250805T113000
+SUMMARY:Recreation Commission
+LOCATION:Recreation Office
+DESCRIPTION:Monthly Recreation Commission meeting
+ORGANIZER;CN="Recreation Commission":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/recreation-commission
+END:VEVENT
+BEGIN:VEVENT
+UID:0aeae4a7-e487-47ee-b079-eef13d6c1d61
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250805T180000
+DTEND:20250805T190000
+SUMMARY:Municipal Affordable Housing Trust
+LOCATION:Town Building - Conference Room
+DESCRIPTION:Board meeting for the Municipal Affordable Housing Trust
+ORGANIZER;CN="Municipal Affordable Housing Trust":mailto:info@wayland.ma.u
+ s
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/municipal-affordable-housing-trust
+ -fund-board
+END:VEVENT
+BEGIN:VEVENT
+UID:b36390e2-20cc-41d6-a222-ca8754a776db
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250812T183000
+DTEND:20250812T193000
+SUMMARY:Select Board Meeting
+LOCATION:Town Building - Selectmen's Meeting Room
+DESCRIPTION:Regular Select Board meeting to discuss town business
+ORGANIZER;CN="Select Board":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/select-board
+END:VEVENT
+BEGIN:VEVENT
+UID:479408bb-6d3c-47b8-8559-eaca95362a8a
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250813T183000
+DTEND:20250813T193000
+SUMMARY:Conservation Commission
+LOCATION:Town Building
+DESCRIPTION:Conservation Commission meeting
+ORGANIZER;CN="Conservation Commission":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/conservation-commission
+END:VEVENT
+BEGIN:VEVENT
+UID:9b883ccc-0b62-4631-86b6-90c340518afe
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250813T190000
+DTEND:20250813T200000
+SUMMARY:Planning Board
+LOCATION:Town Building
+DESCRIPTION:Regular Planning Board meeting
+ORGANIZER;CN="Planning Board":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/planning-department-board
+END:VEVENT
+BEGIN:VEVENT
+UID:8bb129bd-23e5-42cc-a467-653a334b6662
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250814T083000
+DTEND:20250814T093000
+SUMMARY:Economic Development Committee
+LOCATION:Town Building
+DESCRIPTION:Monthly Economic Development Committee meeting
+ORGANIZER;CN="Economic Development Committee":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/economic-development-committee
+END:VEVENT
+BEGIN:VEVENT
+UID:62cc3f82-297e-4035-b5c9-0ff1a09b9d20
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250818T183000
+DTEND:20250818T193000
+SUMMARY:Board of Health
+LOCATION:Town Building
+DESCRIPTION:Board of Health regular meeting
+ORGANIZER;CN="Board of Health":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/board-health
+END:VEVENT
+BEGIN:VEVENT
+UID:67391f6b-39f9-4bb8-94eb-b1f2fad740b3
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250821T190000
+DTEND:20250821T200000
+SUMMARY:Finance Committee
+LOCATION:Town Building
+DESCRIPTION:Finance Committee meeting
+ORGANIZER;CN="Finance Committee":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/finance-committee
+END:VEVENT
+BEGIN:VEVENT
+UID:d97b5623-875e-4123-b93f-5b49678e2ef1
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250822T190000
+DTEND:20250822T200000
+SUMMARY:Summer Concert Series
+LOCATION:Town Beach
+DESCRIPTION:Free outdoor concert featuring local musicians
+ORGANIZER;CN="Recreation Department":mailto:info@wayland.ma.us
+CATEGORIES:event
+URL;VALUE=URI:https://www.wayland.ma.us/waylandrec
+END:VEVENT
+BEGIN:VEVENT
+UID:993ed52f-6630-4362-9902-1741140877ab
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250826T183000
+DTEND:20250826T193000
+SUMMARY:Housing Authority Meeting
+LOCATION:Housing Authority Office
+DESCRIPTION:Wayland Housing Authority board meeting
+ORGANIZER;CN="Wayland Housing Authority":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/wayland-housing-authority
+END:VEVENT
+BEGIN:VEVENT
+UID:7552365b-bc12-422a-addc-73e1c168fc58
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Labor Day
+DESCRIPTION:Federal holiday - Town offices closed
+ORGANIZER;CN="Town Clerk":mailto:info@wayland.ma.us
+CATEGORIES:holiday
+END:VEVENT
+BEGIN:VEVENT
+UID:36ad1d9e-209b-46d0-9942-0f4cebae133f
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250903T163000
+DTEND:20250903T173000
+SUMMARY:Energy and Climate Committee
+LOCATION:Town Building
+DESCRIPTION:Monthly Energy and Climate Committee meeting
+ORGANIZER;CN="Energy and Climate Committee":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/energy-and-climate-committee
+END:VEVENT
+BEGIN:VEVENT
+UID:75a29500-c6f6-492e-9704-89c9affa195d
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20250909T180000
+DTEND:20250909T190000
+SUMMARY:School Committee Meeting
+LOCATION:Wayland High School
+DESCRIPTION:Regular School Committee meeting
+ORGANIZER;CN="School Committee":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/school-committee
+END:VEVENT
+BEGIN:VEVENT
+UID:e44213fb-9c18-4414-bf2e-1f42cec18ceb
+SEQUENCE:0
+DTSTAMP:20250801T000319
+DTSTART:20251028T193000
+DTEND:20251028T203000
+SUMMARY:Fall Town Meeting
+LOCATION:Wayland High School Gymnasium
+DESCRIPTION:Annual Fall Town Meeting for all registered voters
+ORGANIZER;CN="Town Clerk":mailto:info@wayland.ma.us
+CATEGORIES:meeting
+URL;VALUE=URI:https://www.wayland.ma.us/town-meeting
+END:VEVENT
+END:VCALENDAR
