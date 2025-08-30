@@ -30,37 +30,3 @@
     }
   ]
 }
-EOF  
-cd /home/project && cd /home/project/wayland-calendar-importer && cat > vercel.json << 'EOF'
-{
-  "buildCommand": "DISABLE_DATABASE=true NODE_ENV=production bun run build",
-  "functions": {
-    "src/app/api/**/*.ts": {
-      "maxDuration": 30
-    }
-  },
-  "env": {
-    "DISABLE_DATABASE": "true",
-    "NODE_ENV": "production",
-    "VERCEL_ENV": "production"
-  },
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
-          "key": "X-XSS-Protection",
-          "value": "1; mode=block"
-        }
-      ]
-    }
-  ]
-}
