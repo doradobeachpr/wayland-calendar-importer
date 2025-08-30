@@ -5,19 +5,8 @@
     }
   },
   "env": {
-    "DATABASE_URL": "/tmp/calendar.db",
-    "NODE_ENV": "production"
-  },
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    }
-  ]
+    "VERCEL_ENV": "production",
+    "NODE_ENV": "production",
+    "DISABLE_DATABASE": "true"
+  }
 }
