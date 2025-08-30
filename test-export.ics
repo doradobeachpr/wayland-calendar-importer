@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Wayland Calendar Events
+X-WR-CALNAME:Wayland Calendar Events
+X-WR-CALDESC:Events imported from Wayland, MA calendar
+TIMEZONE-ID:America/New_York
+X-WR-TIMEZONE:America/New_York
+END:VCALENDAR
